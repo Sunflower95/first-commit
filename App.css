@@ -1,0 +1,155 @@
+#contactstable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#contactstable td, #contactstable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#contactstable  tr:hover {background-color: #ddd;}
+
+#contactstable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(71, 211, 230);
+  color: white;
+}
+.result-page{
+  text-align: center;
+  padding:100px;
+  margin:auto;
+
+}
+.great{
+  align-content: center;
+  
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: 3px;
+  cursor: pointer;
+
+  
+}
+.glory{
+  background-color: rgb(71, 211, 230);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+
+}
+* {
+  box-sizing: border-box;
+
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=password]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 8px 8px 8px 0;
+  display: inline-block;
+}
+button {
+  background-color: rgb(70, 214, 224);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* input[type=submit] {
+  background-color: #a433d8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+} */
+input[type=submit]:hover {
+  background-color: #a433d8;
+}
+
+
+.container {
+  border-radius: 2px;
+  background-color:  rgb(71, 211, 230);
+  padding: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 40px;
+  
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+/* clears row after the columns*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  #contactstable
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
